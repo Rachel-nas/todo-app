@@ -1,1 +1,10 @@
 <h1>TODO list</h1>
+<div>
+  <ul>
+    <% @tasks.each do |task| %>
+      <li>
+        <p><%= task.title %></p>
+      </li>
+    <% end %>
+  </ul>
+</div>
